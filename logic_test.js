@@ -35,3 +35,16 @@ function alternateCase(param) {
     }
     alert("Hasil: " + n);
 }
+
+function Multiple3and5(){
+  let max_num = document.getElementById('numb2').value;
+  let result = 0;
+  let array = [];
+
+  for (let i=0; i<max_num; i++){
+    if(i%3 == 0 || i%5 == 0){
+      result+=i ;
+    }
+  }
+  alert(result);
+}
